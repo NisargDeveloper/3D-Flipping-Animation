@@ -14,6 +14,9 @@
   background-color: #ff8f70;
   background-repeat: no-repeat;
   border-bottom-left-radius: 50px;
+}
+
+.nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,10 +81,127 @@
   border-radius: 50px;
   border: 0;
   background-color: white;
+  color: #ff525d;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.button {
+  margin-right: 11.1%;
 }
 
 .button a {
   text-decoration: none;
   color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.description {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.heading {
+  margin-top: 134px;
+  font-size: 37px;
+  font-family: 'Overpass', sans-serif;
+  color: whitesmoke;
+  opacity: 0.9;
+}
+
+.paragraph {
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+
+.button-new {
+  margin-top: 48px;
+}
+
+.btn-new {
+  border-radius: 50px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff525d;
+  height: 52px;
+  width: 140px;
+  text-align: center;
+}
+
+.new-2 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 19px;
+}
+
+.background-2 {
+  font-family: 'Overpass', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  overflow-x: hidden;
+      grid-template-areas: 'info-new image' 'info-new image' 'info2 image' 'info2 image';
+  -ms-grid-columns: 48% 52%;
+      grid-template-columns: 48% 52%;
+  position: relative;
+}
+
+.info-new {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: info-new;
+  margin-left: 19.92%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.info-paragraph {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.heading-2 {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.image {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  grid-area: image;
+  margin-left: 16%;
+  width: 100%;
+}
+
+.info-2 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: info2;
+  margin-left: 19.92%;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 /*# sourceMappingURL=style.css.map */
