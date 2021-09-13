@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Front End Mentor Challenge</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&family=Ubuntu:wght@600,700,1000&display=swap"
     rel="stylesheet">
 </head>
@@ -21,13 +23,42 @@
             <h1>Blogr</h1>
           </div>
           <div class="info">
-            <ul>
-              <li><a href="#">Products</a>
+            <ul class="info-ul">
+              <li class="dropdown">
+                <span class="testing">Products</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                   <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                 </svg>
+                <ul class="dropdown-content testing-1">
+                  <li class="dropdown-inner "><a href="#">Overview</a></li>
+                  <li class="dropdown-inner"><a href="#">Pricing</a></li>
+                  <li class="dropdown-inner"><a href="#">Marketplace</a></li>
+                  <li class="dropdown-inner"><a href="#">Features</a></li>
+                  <li class="dropdown-inner"><a href="#">Integrations</a></li>
+                </ul>
+                <li class="dropdown">
+                  <span>Company</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
+                  </svg>
+                  <ul class="dropdown-content">
+                    <li class="dropdown-inner"><a href="#">About</a></li>
+                    <li class="dropdown-inner"><a href="#">Team</a></li>
+                    <li class="dropdown-inner"><a href="#">Blog</a></li>
+                  </ul>
+                <li class="dropdown">
+                  <span>Connect</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
+                  </svg>
+                <ul class="dropdown-content">
+                  <li class="dropdown-inner"><a href="#">Contact</a></li>
+                  <li class="dropdown-inner"><a href="#">Newsletter</a></li>
+                  <li class="dropdown-inner"><a href="#">LinkedIn</a></li>
+                </ul>
               </li>
-              <li><a href="#">Company</a>
+              </ul>
+              <!-- <li><a href="#">Company</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                   <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                 </svg>
@@ -37,7 +68,7 @@
                   <path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4" />
                 </svg>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <div class="button">
             <a href="#">Login</a>
@@ -59,9 +90,10 @@
       <div class="background-2">
         <div class="info-new">
           <h1 class="info-heading">Introducing an extensible editor</h1>
-          <p class="info-paragraph">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          <p class="info-paragraph">Blogr features an exceedingly intuitive interface which lets you focus on one thing:
+            creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
             change the looks of a blog.</p>
         </div>
         <div class="image">
@@ -69,18 +101,22 @@
         </div>
         <div class="info-2">
           <h1 class="info-heading">Robust content management</h1>
-          <p class="info-paragraph">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          <p class="info-paragraph">Flexible content management enables users to easily move through posts. Increase the
+            usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
         </div>
       </div>
       <div class="background-3">
         <div class="phone-img">
-          <img src="./images/illustration-phones.svg"/>
+          <img src="./images/illustration-phones.svg" />
         </div>
         <div class="phone-written">
           <h1 class="phone-heading">State of the Art Infrastructure</h1>
-          <p class="phone-para">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+          <p class="phone-para">With reliability and speed in mind, worldwide data centers provide the backbone for
+            ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
         </div>
       </div>
       <div class="background-4">
@@ -88,17 +124,20 @@
         <div class="information">
           <div class="information-1">
             <h1 class="heading-information">Free, open, simple</h1>
-            <p class="paragraph-information">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+            <p class="paragraph-information">Blogr is a free and open source application backed by a large community of
+              helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+              tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
           </div>
           <div class="information-2">
             <h1 class="heading-information">Powerful tooling</h1>
-            <p class="paragraph-information">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-            capable of producing even the most complicated sites.</p>
-          
+            <p class="paragraph-information">Batteries included. We built a simple and straightforward CLI tool that
+              makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.</p>
+
           </div>
-          
+
         </div>
       </div>
 
@@ -109,30 +148,30 @@
         <div class="footer-info">
           <h3>Products</h3>
           <ul>
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Marketplace</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Integrations</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
           </ul>
         </div>
         <div class="footer-info">
           <h3>Company</h3>
-         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Carrers</a></li>
-         </ul>
-          
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carrers</a></li>
+          </ul>
+
         </div>
         <div class="footer-info">
           <h3>Connect</h3>
-        <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Newsletter</a></li>
-          <li><a href="#">LinkedIn</a></li>
-        </ul>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
         </div>
       </footer>
     </section>
